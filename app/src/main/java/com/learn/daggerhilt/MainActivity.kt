@@ -20,10 +20,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Log.e(TAG, "onCreate: ", )
+
+
+        Log.e(TAG, "onCreate222222222222: ", )
         Log.e(TAG, "onCreate222222222222: ", )
         Log.e(TAG, "Javaaaaaaaaaaaaaaaaaaaaaaa: ", )
 
-
+        //jjphopihjpijhoih
         Toast.makeText(baseContext, human.getEat(), Toast.LENGTH_LONG).show()
     }
 }
