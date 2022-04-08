@@ -8,8 +8,4 @@ class TestGit {
     val user88sadsa: String = "Git"
     val java: String = "Git"
 
-
-
-    var kotlin: String? = null
-
 }
