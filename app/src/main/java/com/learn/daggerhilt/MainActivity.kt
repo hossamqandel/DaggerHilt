@@ -1,7 +1,9 @@
 package com.learn.daggerhilt
 
+import android.content.ContentValues.TAG
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import com.learn.daggerhilt.Model.Human
 import dagger.hilt.android.AndroidEntryPoint
@@ -16,6 +18,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        Log.e(TAG, "onCreate: ", )
+
 
         Toast.makeText(baseContext, human.getEat(), Toast.LENGTH_LONG).show()
     }
