@@ -11,7 +11,6 @@ class TestGit {
 
     //after branch added
 
-
     var kotlin: String? = null
 
 }
