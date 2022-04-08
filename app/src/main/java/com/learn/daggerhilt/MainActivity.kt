@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         Log.e(TAG, "onCreate: ", )
         Log.e(TAG, "onCreate222222222222: ", )
+        Log.e(TAG, "Javaaaaaaaaaaaaaaaaaaaaaaa: ", )
 
 
         Toast.makeText(baseContext, human.getEat(), Toast.LENGTH_LONG).show()
